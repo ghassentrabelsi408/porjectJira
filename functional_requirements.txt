@@ -1,0 +1,12 @@
+# Version: v0.1.0
+# Created: 2025-06-05 12:40:42
+
+REQ-001: Each functional requirement must be saved in a text file with a unique code (e.g., REQ-001).
+REQ-002: The 'functional_requirements.txt' file must include a version ID at the beginning.
+REQ-003: Each code file must also begin with a version ID.
+REQ-004: The system must allow reverting to previous code versions at any point.
+REQ-005: All code must include clear and concise comments explaining the 'why' behind the implementation.
+REQ-006: Logging must be implemented using appropriate levels: DEBUG, INFO, WARNING, ERROR, CRITICAL.
+REQ-007: The assistant must crosscheck every delivered code against all saved requirements in 'functional_requirements.txt'.
+REQ-008: The Python application must: 1) Read a file containing a list of JIRA ticket codes, 2) Fetch ticket details from the JIRA server, 3) Display the fetched ticket information in a table on a web page.
+REQ-009: Each time code is delivered, it must be testable. A mock JIRA server and mock data must be included to simulate JIRA API responses for local testing.
